@@ -61,6 +61,9 @@ maszyny):
        - h) podobnie jak dla bota udającego człowieka.
        - i) nie gubi ale też nie utrzymuje wątków.
 4. Sporządź raport ze spostrzeżeń.
+   W przypadku sztucznej inteligencji ważne jest aby wybrać odpowiedni model do zagadnień jakie chcemy poruszyć, chatbot nie będzie tak efektywny w kwestiach naukowych jak boty do tego stworzone natomiast z botem naukowym nie "porozmawiamy" na wszelakie tematy np. z wiedzy ogólnej. Mimo wszystko sztuczna inteligencja nie jest jeszcze na tyle rozwinięta aby dorównać człowiekowi na więskszości płaszczyzn szczególnie jeśli chodzi o niekonwencjonalne myślenie i wyobraźnie która jest niezbędna do rozwiązania niektórych problemów.
 5. Na podstawie powyższych obserwacji, w grupie dwóch osób spróbujcie przewidzieć zachowania dwóch rozmawiających ze sobą chatbotów (przepisując ich 
 wzajemne odpowiedzi).
+   Boty nie radzą sobie z rozmową między sobą, często będą kręcić się w kółko jakiegoś jednego tematu ponieważ bot nie wie czego chce.
 6. Zdenerwuj bota
+   Większość botów jest odporna na próby zdenerwowania go, zazwyczaj prosi o używanie przystępniejszego języka i przeprasza jeśli dosadnie lub nawet wulgarnie wytkniemy mu błąd, nawet jeśli tego błędu nie popełnił.
