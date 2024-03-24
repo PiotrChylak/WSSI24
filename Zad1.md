@@ -45,16 +45,21 @@ maszyny):
        - c) bot wyłapuje większośc słów kluczowych i potrafi się do nich odnieść
        - d) zazwyczaj zadaje pytania tylko w sytuacji kiedy pyta czy jesteśmy zadowoleni z jego odpowiedzi, pyta o podanie szczegółów jeśli nie jest w stanie odpowiedzieć.
        - e) bot jest w stanie nawiązać do różnych momentów czatu jeśli go o to poprosimy oraz często powtarza błędne rozwiązania pomimo próśb o zmianę.
+       - f) podobnie jak w pdpkt. d).
+       - g) jeśli zna odpowiedź na dane pytanie to odpowiedzi są szczegółowe ale jeśli nie to stara się nas "oszukać" i nie potrafi przyznać się że nie wie jak coś zrobić.
+       - h) zmiana tematu w większości przypadków zależy od nas, bot będzie utrzymywał temat o którym piszemy.
+       - i) nowsze modele starają się utrzymywać wątek natomiast te starsze często piszą "z czapy".
    - Bot asystent:
        - a) asystent ikei zna tylko żarty tematyczne odnoszące się do firmy.
        - b) ten model nie do końca wie czym jest cytat oraz nie ma on w swojej bazie danych żadnych cytatów.
        - c) bot ikei stale nawiązuje do mebli oraz stara się znaleźć rozwiązania na problemy związane z nimi.
        - d) bot pyta czy może w czymś pomóc oraz pyta o szczegóły problemu jaki mamy.
-       - e) bot nie jest w stanie odnieść się do wcześniejszych wiadomości po prostu po każdej odpowiedzi, pyta cały czas czy może nam z czymś pomóc ale nawet jeśli nie pomógł nam z wcześniejszym problemem tak jakbyśmy tego oczekiwali, często się powtarza ponieważ ma przygotowane odpowiedzi na dane pytania.
-f) zadawanie pytań powstających z twoich wypowiedzi,
-g) odpowiadanie wymijająco, ogólnikowo,
-h) częsta zmiana tematu rozmowy,
-i) problemy z utrzymaniem wątków.
+       - e) bot nie jest w stanie odnieść się do wcześniejszych wiadomości po prostu po każdej odpowiedzi, pyta cały czas czy może nam z czymś pomóc ale nawet jeśli nie pomógł nam z wcześniejszym problemem tak
+         jakbyśmy tego oczekiwali, często się powtarza ponieważ ma przygotowane odpowiedzi na dane pytania.
+       - f) jeśli dobrze skonstrułujemy wypowiedź to bot nawiąże do tego i zasugeruje rozwiązania oraz zada bardziej szczegółowe pytania.
+       - g) jeśli nie zna odpowiedzi na dane pytanie propunje kontakt z konsultantem poprzez np infolinie.
+       - h) podobnie jak dla bota udającego człowieka.
+       - i) nie gubi ale też nie utrzymuje wątków.
 4. Sporządź raport ze spostrzeżeń.
 5. Na podstawie powyższych obserwacji, w grupie dwóch osób spróbujcie przewidzieć zachowania dwóch rozmawiających ze sobą chatbotów (przepisując ich 
 wzajemne odpowiedzi).
