@@ -6,3 +6,4 @@
 - e) x i y są przyrodnim rodzeństwem
 - f) x i y są dla siebie szwagrami
 - g) x jest stryjem i rodzeństwem dla y
+
