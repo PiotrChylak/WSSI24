@@ -89,3 +89,34 @@ grandmother(X,Y) :-
     (mother(X,D),father(D,Y); mother(X,M),
     mother(M,Y)),
     X \= Y.
+
+granddaughter(X,Y) :-
+    female(Y),
+    (grandfather(X,Y);grandmother(X,Y)),
+    X \= Y.
+
+ancestor2(X, Y) :-
+    grandfather(X, Y);grandmother(X, Y);
+    father(X, Y);mother(X, Y).
+
+pra_grandfather(X, Y) :-
+    father(X,Z),
+    (grandfather(Z,Y);grandmother(Z, Y)),
+    X\=Y,
+    Z\=Y,
+    X\=Z.
+
+pra_grandmother(X, Y) :-
+    mother(X, Z),
+    (grandfather(Z, Y);grandmother(Z, Y)),
+    X\=Y,
+    Z\=Y,
+    X\=Z.
+
+ancesor3(X, Y) :-
+    ancesor2(X, Y);
+    pra_grandfather(X,Y);
+    pra_grandmother(X, Y).
+  	
+	
+
